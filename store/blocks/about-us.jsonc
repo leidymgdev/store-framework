@@ -50,8 +50,8 @@
     },
     "tab-list.item#home1": {
       "props": {
-        "tabId": "majorAppliances",
-        "label": "Major Appliances",
+        "tabId": "about",
+        "label": "About",
         "defaultActiveTab": true
       }
     },
@@ -72,7 +72,7 @@
         "rich-text#home1"
       ],
       "props": {
-        "tabId": "majorAppliances"
+        "tabId": "about"
       }
     },
     "tab-content.item#home2": {
@@ -85,7 +85,7 @@
     },
     "rich-text#home1": {
       "props": {
-        "text": "Área do conteúdo da tab-list.item com  tabId = majorAppliances",
+        "text": "# **Our history** \n ### **We were born from an internal VTEX hackathon!** \n That's right. VTEX's first Hackatheme (store theme hackathon) had 3 finalists. One of them was FlatFlat, the store that you're accessing now. FlatFlat was created by the engineers Afonso Praça and Sávio Muniz, together with designers Lucas Falcão and Augusto Barbosa, and new business director Maurício Baum. As the store was created by profissionals having the most diverse backgrounds, the result was an obvious one: they became the finalists with coolest layout among participants.",
         "textPosition": "CENTER",
         "font": "t-heading-3"
       }
