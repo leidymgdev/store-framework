@@ -17,7 +17,9 @@
             "orderByField": "OrderByReleaseDateDESC",
             "hideUnavailableItems": true,
             "maxItemsPerPage": 8,
-            "queryField": "Camera"
+            "queryField": "Camera",
+            "mapField": "ft",
+            "skusFilter": "ALL_AVAILABLE"
           }
         }
       }
