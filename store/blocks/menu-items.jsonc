@@ -1,130 +1,131 @@
 {
   "menu-item#major-appliances": {
-      "props": {
+    "props": {
       "type": "custom",
       "highlight": true,
       "itemProps": {
         "text": "Major Aplliances"
-      }
-    }
+      },
+      "orientation": "vertical"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#major"
+    ]
   },
   "menu-item#small-appliances": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 2, 
+        "categoryId": 2,
         "text": "Small Appliances"
-      }
-    }
+      },
+      "orientation": "vertical"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#small"
+    ]
   },
   "menu-item#electronics": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 3, 
+        "categoryId": 3,
         "text": "Electronics"
-      }
-    }
+      },
+      "orientation": "vertical"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#electronics"
+    ]
   },
   "menu-item#refrigerators": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 4, 
+        "categoryId": 4,
         "text": "Refrigerators"
       }
     }
   },
   "menu-item#ovens": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 5, 
+        "categoryId": 5,
         "text": "Ranges & Ovens"
       }
     }
   },
   "menu-item#washers": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 6, 
+        "categoryId": 6,
         "text": "Washers & Dryers"
       }
     }
   },
   "menu-item#mixers": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 7, 
+        "categoryId": 7,
         "text": "Mixers & Blenders"
       }
     }
   },
   "menu-item#toasters": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 8, 
+        "categoryId": 8,
         "text": "Toasters & Grills"
       }
     }
   },
   "menu-item#coffee": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 9, 
+        "categoryId": 9,
         "text": "Coffee Makers"
       }
     }
   },
   "menu-item#tvs": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 10, 
+        "categoryId": 10,
         "text": "TVs"
       }
     }
   },
   "menu-item#laptops": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 11, 
+        "categoryId": 11,
         "text": "Laptops"
       }
     }
   },
   "menu-item#cameras": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 12, 
+        "categoryId": 12,
         "text": "Cameras"
       }
     }
